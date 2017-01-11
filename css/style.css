@@ -113,13 +113,23 @@
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width:320px)  {  }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-@media screen and (max-width:481px)  {  
+@media screen and (max-width:481px)   {  
     #HeaderPage .upperTitle {
         font-size: 15px!important;
     }
 
     #HeaderPage .title {  
+        font-size: 25px!important;
+    }
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media screen and (min-width:481px)  and (max-width: 641px) { 
+    #HeaderPage .upperTitle {
         font-size: 20px!important;
+    }
+
+    #HeaderPage .title {  
+        font-size: 30px!important;
     }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
