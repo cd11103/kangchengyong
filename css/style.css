@@ -40,7 +40,8 @@ body {
     border-radius: 0px;
 }
 .btn-contactMe:hover {
-    background-color: rgba(136, 136, 136, 0.22)!important;  
+    background-color:rgb(255, 255, 255)!important;
+    color: black!important;
 }
 
 .navbar-default {
@@ -49,32 +50,30 @@ body {
         padding-top: 20px;
     
 }
-
-.navbar-default a {
-    color:white!important;   
-}
 .navbar-default ul li {
-        color: white!important;
     width: 125px;
-    /* text-indent: 10px; */
     letter-spacing: 2px;
-    
 }
 
 .navbar-default .navbar-nav>.active>a {
-    color:#e0e0e0!important;
-        background-color: transparent!important;
+    font-weight: bold;
+    background-color: transparent!important;
+    color:#ccc;
 }
 
-.navbar-default .navbar-nav>a {
-    font-family:robotoLight;
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
 }
-.nav>li>a:focus, .nav>li>a:hover {
-    color: #e0e0e0!important;
+.navbar-default .navbar-nav>li>a {
+    font-family:robotoRegular;
+    color: white;
 }
+
+
 
 .navbar-default .navbar-brand {
     padding-left: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     font-weight: bold;
+    color:white;
 }
