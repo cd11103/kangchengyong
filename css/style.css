@@ -29,7 +29,7 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    margin-top: 13vh;
+        padding-top: 13vh;
 }
 
 #HeaderPage .title {
@@ -44,7 +44,8 @@
     -webkit-animation-delay: 0.4s;
    -moz-animation-delay: 0.4s;
    -o-animation-delay: 0.4s;
-    padding-bottom:120px;
+    padding-bottom:180px;
+    line-height:1em;
     
 }
 
