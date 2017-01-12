@@ -9,6 +9,12 @@
     src: url(fonts/Roboto-Bold.ttf);
 }
 
+
+@font-face {
+    font-family: newCicleSemi;
+    src: url(fonts/New-Cicle-Semi.ttf);
+}
+
 @font-face {
     font-family: robotoMedium;
     src: url(fonts/Roboto-Medium.ttf);
@@ -24,7 +30,7 @@
     src: url(fonts/JosefinSans-Italic.ttf);
 }
 
-#HeaderPage .upperTitle {
+#Home .upperTitle {
     font-family: JosefinSans-Italic;
     color: white;
     text-align: center;
@@ -32,7 +38,7 @@
         padding-top: 13vh;
 }
 
-#HeaderPage .title {
+#Home .title {
         font-family: robotoBOLD;
     color: white;
     text-align: center;
@@ -49,7 +55,7 @@
     
 }
 
-#HeaderPage {
+#Home {
     /*height: 80vh;*/
     background-image: url('../images/resumewallpaper.jpg');
     background-size: cover;
@@ -111,55 +117,69 @@
    -o-transition-duration: 0.4s;
    transition-duration: 0.4s;
 }
+
+
+#AboutMe {
+    background-color:#e8e8e8;
+}
+#AboutMe .title {
+    font-size: 30px;
+    font-family: newCicleSemi;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width:320px)  {  }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media screen and (max-width:481px)   {  
-    #HeaderPage .upperTitle {
+    #Home .upperTitle {
         font-size: 15px!important;
     }
 
-    #HeaderPage .title {  
+    #Home .title {  
         font-size: 25px!important;
     }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media screen and (min-width:481px)  and (max-width: 641px) { 
-    #HeaderPage .upperTitle {
+    #Home .upperTitle {
         font-size: 20px!important;
     }
 
-    #HeaderPage .title {  
+    #Home .title {  
         font-size: 30px!important;
     }
 }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media screen and (min-width:641px)  and (max-width: 961px) { 
-    #HeaderPage .upperTitle {
+    #Home .upperTitle {
         font-size: 20px!important;
     }
 
-    #HeaderPage .title {  
+    #Home .title {  
         font-size: 40px!important;
     }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width:961px)  and (max-width: 1025px) { 
-    #HeaderPage .upperTitle {
+    #Home .upperTitle {
         font-size: 20px!important;
     }
 
-    #HeaderPage .title {  
+    #Home .title {  
         font-size: 60px!important;
     }
 }
 /* big landscape tablets, laptops, and desktops */
 @media screen and (min-width:1025px) and (max-width: 1281px) { 
-    #HeaderPage .upperTitle {
+    #Home .upperTitle {
         font-size: 25px!important;
     }
 
-    #HeaderPage .title {  
+    #Home .title {  
         font-size: 65px!important;
     }
 }
