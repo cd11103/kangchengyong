@@ -30,6 +30,11 @@
     src: url(fonts/JosefinSans-Italic.ttf);
 }
 
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url(fonts/JosefinSans-Regular.ttf);
+}
+
 #Home .upperTitle {
     font-family: JosefinSans-Italic;
     color: white;
@@ -124,13 +129,32 @@
 }
 #AboutMe .title {
     font-size: 30px;
-    font-family: newCicleSemi;
+    font-family: JosefinSans-Regular;
     padding-top: 100px;
+    padding-bottom: 25px;
     text-align: center;
     font-weight: bold;
 }
+#AboutMe .aboutImage{
+    border: 1px solid #d44ae4;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
+#AboutMe .aboutTitle {
+    text-align: center;
+    padding-top: 20px;
+}
 
+#AboutMe .content {
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#AboutMe .row{
+    padding-bottom:50px;
+}
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width:320px)  {  }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
