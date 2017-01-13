@@ -146,6 +146,8 @@
 #AboutMe .aboutTitle {
     text-align: center;
     padding-top: 20px;
+    font-family:newCicleSemi;
+    font-size:15px;
 }
 
 #AboutMe .content {
