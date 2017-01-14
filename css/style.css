@@ -136,11 +136,17 @@
     font-weight: bold;
 }
 #AboutMe .aboutImage{
-    border: 1px solid #d44ae4;
+    border: 0px solid #d44ae4;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
+    text-align:center;
+}
+
+#AboutMe .aboutImage > img{
+        height: 80%;
+    width: 80%;
 }
 
 #AboutMe .aboutTitle {
@@ -156,6 +162,28 @@
 }
 #AboutMe .row{
     padding-bottom:50px;
+}
+
+#Achievement {
+    background-color:white;
+}
+
+#Achievement .title {
+    font-size: 30px;
+    font-family: JosefinSans-Regular;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Achievement .titleImage {
+    height: 300px;
+    text-align: center;
+}
+
+#Achievement .titleImage >img {
+    height: 100%;
 }
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width:320px)  {  }
