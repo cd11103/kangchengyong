@@ -125,7 +125,7 @@
 
 
 #AboutMe {
-    background-color:#e8e8e8;
+    background-color:#f7f7f7;
 }
 #AboutMe .title {
     font-size: 30px;
@@ -199,7 +199,7 @@
 }
 
 #Skillset {
-    background-color:#e8e8e8;
+    background-color:#f7f7f7;
 }
 #Skillset .container {
     padding-bottom:50px;
@@ -289,7 +289,7 @@ p{
 	display:block;
 	margin-bottom:15px;
 	width:100%;
-	background:#bfbfbf;
+	background:#e4e4e4;
 	height:35px;
 	border-radius:3px;
 	-moz-border-radius:3px;
