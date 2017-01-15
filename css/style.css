@@ -89,8 +89,8 @@
     
 }
 .navbar-default ul li {
-    width: 125px;
-    letter-spacing: 2px;
+        width: 111px;
+    letter-spacing: 0px;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -166,8 +166,11 @@
 
 #Achievement {
     background-color:white;
+    
 }
-
+#Achievement .container {
+    padding-bottom: 50px;
+}
 #Achievement .title {
     font-size: 30px;
     font-family: JosefinSans-Regular;
@@ -184,6 +187,23 @@
 
 #Achievement .titleImage >img {
     height: 100%;
+}
+#Achievement .firstContent {
+    padding-top:220px!important
+}
+#Achievement .content {
+    font-family:newCicleSemi;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+@media (max-width:767px) { 
+    #Achievement .content {
+    text-align:center!important;
+    }
+    #Achievement .firstContent {
+    padding-top:0px!important;
+    }
 }
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width:320px)  {  }
