@@ -251,6 +251,15 @@
     #Home .title {  
         font-size: 40px!important;
     }
+    .navbar-default ul li {
+    width: 95px!important;
+        text-align: center;
+    }
+    
+    .navbar-nav>li>a {
+        padding-left:0;
+        padding-right:0;
+    }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width:961px)  and (max-width: 1025px) { 

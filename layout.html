@@ -14,9 +14,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#Home">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#AboutMe">About me</a></li>
                 <li><a href="#Achievement">Achievement</a></li>
+                 <li><a href="#Skillset">Skillset</a></li>
                 <li><a href="#Resume">Resume</a></li>
                 <li><a class="btn btn-contactMe" href="#">Contact Me</a></li>
             </ul>
@@ -24,3 +25,10 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<script>
+$('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 800);
+        });
+</script>
