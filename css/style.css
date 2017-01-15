@@ -137,21 +137,21 @@
 }
 #AboutMe .aboutImage{
     border: 0px solid #d44ae4;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     margin: 0 auto;
     text-align:center;
 }
 
 #AboutMe .aboutImage > img{
-        height: 80%;
-    width: 80%;
+        height: 100%;
+    width: 100%;
 }
 
 #AboutMe .aboutTitle {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family:newCicleSemi;
     font-size:15px;
 }
